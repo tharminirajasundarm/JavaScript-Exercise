@@ -1,0 +1,20 @@
+<html>
+<body>
+  <p id="demo2"></p>
+  <p id="demo"></p>
+<script>
+var getNum = function(array, type) {
+  return Math[type].apply(null, array);
+};
+
+var array = [5,10,];
+document.getElementById("demo2").innerHTML = 'Max: ' + getNum(array, "max");
+document.getElementById("demo").innerHTML = 'Min: ' + getNum(array, "min");
+
+
+</script>
+
+
+
+</body>
+</html>

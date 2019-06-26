@@ -1,0 +1,109 @@
+<html>
+<head>
+</head>
+<body>
+  <p id="demo2"> </p>
+
+
+
+  <script>
+function graternum(num1,num2) {
+ if (num1>num2)
+  {
+    return "The greater number of" + num1 +" and" +num2 +" is"+  num1;
+  }else{
+    return " The greater number of" + num1 +" and" +num2 +" is"+ num2;
+    }
+
+}
+document.getElementById("demo2").innerHTML =  graternum( 6,5);
+
+
+
+</script>
+
+
+<p id="demo1"></p>
+
+
+<script>
+function graternum(a,b,c,d,e,) {
+  var a=4,b=10,c=8,d=2,e=12;
+  if (a>b && a>c && a>d && a>e)
+{
+    document.getElementById("demo1").innerHTML = "the number of graternum is"  +"a";
+
+}
+else if (b>a && b>c && b>d && b>e)
+{
+    document.getElementById("demo1").innerHTML = "the number of graternum is"  +"b";
+
+}
+else if (c>a && c>b && c>d && c>e)
+{
+    document.getElementById("demo1").innerHTML = "the number of graternum is"  + "c";
+
+}
+else if (d>a && d>c && d>b && d>e)
+{
+    document.getElementById("demo1").innerHTML = "the number of graternum is"  +"d";
+
+}
+else
+{
+   document.getElementById("demo1").innerHTML = "the number of graternum is"  + "e";
+
+}
+console.log(graternum());
+}
+
+
+
+</script>
+<script>
+function grade(marks)
+ {
+  if (marks>75)
+{
+  return"A";
+}
+else if (marks>60)
+{
+  return"B";
+}
+else if (marks>45)
+{
+  return"c";
+
+}
+else
+
+{
+window.alert(grade(marks));
+}
+
+
+}
+</script>
+<p id="demo6"> </p>
+<script>
+function color(x)
+ {
+  if (x>0 && x<10)
+{
+  return"blue";
+}
+else  (x>0&& x<20)
+{
+  return"red";
+
+{
+document.getElementById("demo6").innerHTML =  color(15);
+}
+
+}
+
+}
+</script>
+</body>
+</html>
